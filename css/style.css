@@ -1,0 +1,21 @@
+div,ul,li{ margin:0; padding: 0;}
+li{ list-style: none;}
+img{ border: 0 none;}
+#clock{width:759px; height: 735px; margin: 0 auto; background: url(../images/clock-bg.jpg) no-repeat; position: relative;}
+#hour{ position: absolute; left: 359px; bottom: 348px;}
+#minute{ position: absolute; left: 361px; bottom: 348px;}
+#second{ position: absolute; left: 361px; bottom: 280px;}
+
+#second
+{
+	transform-origin: 16px 241px;/*秒针旋转的中心位置*/
+}
+#minute
+{
+	transform-origin: 17px 209px;/*分针旋转的中心位置*/
+}
+
+#hour
+{
+	transform-origin: 20px 152px;/*时针旋转的中心位置*/
+}
